@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+
+    <div class="mainContainer">
+        <div class="mainTitle"> <h1>TIP Calculator</h1></div>
+       
+        <div class="billContainer clearFix"> 
+            <div class="billField element"><input type="number" class="billInput clear" placeholder="Bill Amount" ></div>
+        </div>
+        <div class="serviceContainer element">
+            <div class="serviceSelector">
+                 <select class="service" id="" >
+                    <option value="0" disabled selected>Choose an option</option>
+                     <option value="25">25% - Outstanding</option>
+                     <option value="15" >15% - Good</option>
+                     <option value="10">10% - OK</option>
+                     <option value="5">5% - Bad</option>   
+                 </select>
+
+            </div>
+           
+        </div>
+
+        <div class="calculator">  
+            <button class="calculatorBtn element">Calculate</button>
+        </div>
+
+        <div class="billEntered hide">
+            <div class="billEnteredLabel"> Bill Entered</div>
+            <div class="billEnteredValue clear">£54</div>
+        </div>
+
+        <div class="tipContainer hide">
+            <div class="tipAmountLabel"> Tip Amount</div>
+            <div class="tipAmountValue clear">£20</div>
+        </div>
+        <div class="totalBillContainer hide">
+            <div class="totalBillLabel">Total Bill</div>
+            <div class="totalBillValue clear">£75</div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+ 
+</body>
+</html>

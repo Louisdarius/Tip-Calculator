@@ -1,0 +1,35 @@
+
+body{
+    background-color: cadetblue;
+
+}
+
+.clearFix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.rihgt {
+    float: right;
+}
+.mainContainer{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+}
+
+
+/* Hide the tip and the total bill container */
+.hide{ 
+    display: none;
+}
+
+.element {
+    margin-top: 20px;
+}
